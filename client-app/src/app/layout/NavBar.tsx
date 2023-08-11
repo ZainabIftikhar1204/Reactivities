@@ -15,6 +15,8 @@ export default function Navbar() {
             Reactivities
           </MenuItem>
           <MenuItem name="Activities" as={NavLink} to="/activities" />
+          <MenuItem name="Errors" as={NavLink} to="/errors" />
+
           <MenuItem>
             <Button
               positive
